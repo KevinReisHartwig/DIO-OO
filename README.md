@@ -19,3 +19,29 @@ Neste projeto, será disponibilizado no GitHub um projeto de referência que uti
 - Familiaridade com o uso de repositórios Git (opcional, mas recomendado);
 - Capacidade de abstração para reproduzir a solução proposta e implementar melhorias.
 
+### Funcionalidades adicionadas
+
+## Validações de Operações:
+
+- Validação de saldo: Antes de sacar ou transferir, agora o sistema verifica se há saldo suficiente na conta.
+- Prevenção de valores negativos: Não é mais permitido realizar saques ou depósitos com valores negativos.
+
+## Histórico de Transações:
+
+- Classe Transacao: Foi criada para registrar cada operação realizada em uma conta, como saques, depósitos e transferências.
+- Histórico na Conta: Cada conta agora mantém um histórico de transações, permitindo que o usuário visualize todas as operações realizadas.
+
+## Tipos de Conta:
+
+- ContaCorrente com taxa de saque: Uma taxa fixa é aplicada a cada saque realizado em uma conta corrente.
+- ContaPoupanca com rendimento mensal: Contas poupança aplicam automaticamente um rendimento de 2% ao saldo mensalmente.
+
+## Gestão de Contas no Banco:
+
+- Adicionar e remover contas: O banco agora pode adicionar e remover contas da sua lista.
+- Buscar conta ou cliente: Implementados métodos para buscar contas pelo número ou clientes pelo nome.
+- Interface de Usuário (Menu Console):
+- Classe AppBanco: Adicionada para permitir a interação com o sistema via console. O usuário pode criar contas, sacar, depositar, transferir, imprimir extratos e visualizar o histórico de transações diretamente no console.
+
+
+
