@@ -2,54 +2,20 @@
 
 ## POO - Desafio
 
-### Modelagem e Diagramação de um Componente iPhone
+### Descrição do Desafio
 
-Neste desafio, você será responsável por modelar e diagramar a representação UML do componente iPhone, abrangendo suas funcionalidades como Reprodutor Musical, Aparelho Telefônico e Navegador na Internet.
+Reforce seu conhecimento em Programação Orientada a Objetos (POO) em Java com um desafio de projeto totalmente prático. Para isso, os pilares da orientação a objetos são devidamente explorados no contexto bancário, onde o expert implementa um projeto de referência (disponibilizado no GitHub) de forma prática e interativa. Sendo assim, você poderá desenvolver sua capacidade de abstração reproduzindo essa solução. Além disso, caso queira ir além, implemente suas próprias evoluções e melhorias ;)
 
-#### Contexto
-Com base no vídeo de lançamento do iPhone de 2007 (link abaixo), você deve elaborar a diagramação das classes e interfaces utilizando uma ferramenta UML de sua preferência. Em seguida, implemente as classes e interfaces no formato de arquivos `.java`.
+#### Objetivo:
+O objetivo deste projeto prático hands-on é reforçar o conhecimento em Programação Orientada a Objetos (POO) em Java, através da implementação de um banco digital.
 
-[Lançamento iPhone 2007](https://www.youtube.com/watch?v=9ou608QQRq8)
-- Minutos relevantes: 00:15 até 00:55
+### Descrição:
+Neste projeto, será disponibilizado no GitHub um projeto de referência que utiliza os conceitos de POO e Java para criar um banco digital. O contexto bancário será explorado para explorar os pilares da orientação a objetos, e assim, os participantes poderão reproduzir a solução e desenvolver sua capacidade de abstração.
 
-#### Funcionalidades a Modelar
-1. **Reprodutor Musical**
-   - Métodos: `tocar()`, `pausar()`, `selecionarMusica(String musica)`
-2. **Aparelho Telefônico**
-   - Métodos: `ligar(String numero)`, `atender()`, `iniciarCorreioVoz()`
-3. **Navegador na Internet**
-   - Métodos: `exibirPagina(String url)`, `adicionarNovaAba()`, `atualizarPagina()`
-
-### Objetivo
-1. Criar um diagrama UML que represente as funcionalidades descritas acima.
-2. Implementar as classes e interfaces correspondentes em Java (Opcional).
-
-### Exemplo de Diagrama UML (Mermaid)
-```mermaid
-classDiagram
-    class ReprodutorMusical {
-        +tocar()
-        +pausar()
-        +selecionarMusica(String musica)
-    }
-
-    class AparelhoTelefonico {
-        +atender()
-        +iniciarCorreioVoz()
-        +ligar(String numero)
-    }
-
-    class NavegadorInternet {
-        +adicionarNovaAba()
-        +exibirPagina(String url)
-        +atualizarPagina()
-    }
-
-    class iPhone {
-    }
-
-    iPhone --> ReprodutorMusical
-    iPhone --> AparelhoTelefonico
-    iPhone --> NavegadorInternet
-```
+### Requisitos Técnicos:
+- Conhecimentos básicos de Programação Orientada a Objetos em Java;
+- Ambiente de desenvolvimento Java configurado;
+- Acesso à internet para acesso ao projeto de referência no GitHub;
+- Familiaridade com o uso de repositórios Git (opcional, mas recomendado);
+- Capacidade de abstração para reproduzir a solução proposta e implementar melhorias.
 
